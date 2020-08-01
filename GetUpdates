@@ -1,0 +1,23 @@
+-------------------------
+Getting updates from forked repo
+git remote add upstream  https://github.com/lerndevops/labs.git( repo name from where your forked)
+
+git fetch upstream
+
+git checkout master (just to make sure that you are at your master branch)
+
+Either.
+(If no updates you made to your repo yet and just need to get updates from upstream/original repo)
+git rebase upstream/master
+
+Or
+(If you have made changes to your local copy and also need to get updates from upstream/orginal repo)
+git merge upstream/master.
+
+Git push (will push your local changes to your github thus your forked branch and original branch will be in sync)
+
+----------------------------
+
+:wq
+
+
